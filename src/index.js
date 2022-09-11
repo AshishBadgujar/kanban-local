@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import { HelmetProvider } from 'react-helmet-async';
 
-import * as serviceWorker from './serviceWorker';
+import * as registerServiceWorker from './registerServiceWorker';
 
 // @mui
 import { Provider as ReduxProvider } from 'react-redux';
@@ -28,4 +28,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-serviceWorker.register();
+registerServiceWorker.register();
